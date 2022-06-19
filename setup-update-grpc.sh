@@ -39,7 +39,7 @@ LIGHT='\033[0;37m'
 # Link Hosting Kalian Untuk Ohp
 #akbarvpnnnnnnnnnn="revsc.premisc.my.id/ohp"
 # Link Hosting Kalian Untuk GRPC
-akbarvpngrpc="https://raw.githubusercontent.com/ayahost/updatesc/main/grpc"
+akbarvpngrpc="raw.githubusercontent.com/ayahost/updatesc/main/grpc"
 
 # Getting
 echo -e ""
