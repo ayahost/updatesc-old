@@ -33,5 +33,5 @@ chmod +x setup.sh
 sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
 
 rm -rf update.sh
-clear
+
 
