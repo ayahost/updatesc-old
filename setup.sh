@@ -60,12 +60,12 @@ echo "Maaf install Scrip VPN Premium tidak bisa dilanjutkan!"
 echo "Hubungi Admin (WA. 082265260276). Telegram: https://t.me/PremiSC."
 exit 0
 fi
-rm -f setup.sh
-clear
-if [ -f "/etc/xray/domain" ]; then
-echo "Script Already Installed"
-exit 0
-fi
+#rm -f setup.sh
+#clear
+#if [ -f "/etc/xray/domain" ]; then
+#echo "Script Already Installed"
+#exit 0
+#fi
 clear
 sleep 1
 echo -e "${CYAN}MULAI !!!!...update Script VPN Premium...jangan lupa siapkan satu gelas KOPI...\033[0m${NC}"
