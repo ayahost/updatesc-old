@@ -1,5 +1,6 @@
 #!/bin/bash
 # ==========================================
+rm -rf update.sh
 # hapus dan download di /usr/bin 
 cd /usr/bin
 rm -rf updatesc
@@ -17,7 +18,7 @@ chmod +x updatesc
 cd
 
 # hapus file update.sh di root / jika masih ada sisa
-rm -rf update.sh
+
 
 # Download update.sh ke root
 wget -O update.sh "https://raw.githubusercontent.com/ayahost/updatesc/main/update.sh"
