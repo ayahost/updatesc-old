@@ -19,11 +19,10 @@ sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
 
 # hapus dan download di /usr/bin 
 cd /usr/bin
-rm -rf menu
+rm -rf ssh-vpn
 
 # Download file update
 wget -O ssh-vpn "https://raw.githubusercontent.com/ayahost/updatesc/main/ssh-vpn-update.sh"
-wget -O menu "https://raw.githubusercontent.com/ayahost/updatesc/main/menu-update-grpc.sh"
 
 # Download file lain-lain
 #wget -O revisi.sh "https://raw.githubusercontent.com/ayahost/updatesc/main/Revisi.txt"
@@ -32,7 +31,6 @@ wget -O menu "https://raw.githubusercontent.com/ayahost/updatesc/main/menu-updat
 
 #izinkan file download 
 chmod +x ssh-vpn
-chmod +x menu
 
 # kembali ke root
 cd
