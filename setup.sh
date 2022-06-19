@@ -138,7 +138,7 @@ sleep 3
 # install xray sl-grpc
 wget https://${akbarvpngrpc}/sl-grpc.sh && chmod +x sl-grpc.sh && screen -S sl-grpc ./sl-grpc.sh
 # install xray grpc
-wget https://${akbarvpngrpc}/grpc/xray-grpc.sh && chmod +x xray-grpc.sh && screen -S xray-grpc ./xray-grpc.sh
+wget https://${akbarvpngrpc}/xray-grpc.sh && chmod +x xray-grpc.sh && screen -S xray-grpc ./xray-grpc.sh
  
 #rm -f /root/slhost.sh
 #rm -f /root/ssh-vpn.sh
